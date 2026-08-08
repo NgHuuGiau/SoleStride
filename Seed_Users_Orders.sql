@@ -12,23 +12,23 @@ BEGIN
 
     INSERT INTO dbo.Users (Username, Password, Role, FirstName, LastName, Phone, EmailAddress, Birthdate, UserGender) VALUES
     -- 1 admin
-    (N'admin',  N'e86f78a8a3caf0b60d8e74e5942aa6d86dc150cd3c03338aef25b7d2d7e3acc7', 0, N'Quản Trị',   N'Nguyễn',   N'0901000001', N'admin@solestride.com',  '1990-01-15', 0),
+    (N'admin',  N'e86f78a8a3caf0b60d8e74e5942aa6d86dc150cd3c03338aef25b7d2d7e3acc7', 0, N'Jordan',   N'Smith',    N'0901000001', N'admin@solestride.com',  '1990-01-15', 0),
     -- 3 staff
-    (N'staff1', N'dfd48f36338aa36228ebb9e204bba6b4e18db0b623e25c458901edc831fb18e9', 1, N'Minh Anh',   N'Trần',     N'0901000002', N'staff1@solestride.com', '1995-03-22', 1),
-    (N'staff2', N'dfd48f36338aa36228ebb9e204bba6b4e18db0b623e25c458901edc831fb18e9', 1, N'Hoàng Nam',  N'Lê',       N'0901000003', N'staff2@solestride.com', '1993-07-11', 0),
-    (N'staff3', N'dfd48f36338aa36228ebb9e204bba6b4e18db0b623e25c458901edc831fb18e9', 1, N'Thị Hà',     N'Phạm',     N'0901000004', N'staff3@solestride.com', '1998-12-05', 1),
+    (N'staff1', N'dfd48f36338aa36228ebb9e204bba6b4e18db0b623e25c458901edc831fb18e9', 1, N'Emily',    N'Johnson',  N'0901000002', N'staff1@solestride.com', '1995-03-22', 1),
+    (N'staff2', N'dfd48f36338aa36228ebb9e204bba6b4e18db0b623e25c458901edc831fb18e9', 1, N'Michael',  N'Brown',    N'0901000003', N'staff2@solestride.com', '1993-07-11', 0),
+    (N'staff3', N'dfd48f36338aa36228ebb9e204bba6b4e18db0b623e25c458901edc831fb18e9', 1, N'Sarah',    N'Davis',    N'0901000004', N'staff3@solestride.com', '1998-12-05', 1),
     -- 11 users
-    (N'user1',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Văn An',     N'Nguyễn',   N'0902000001', N'user1@solestride.com',  '2000-02-10', 0),
-    (N'user2',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Thị Bích',   N'Trần',     N'0902000002', N'user2@solestride.com',  '2001-05-18', 1),
-    (N'user3',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Hoàng Long', N'Lê',       N'0902000003', N'user3@solestride.com',  '1999-09-30', 0),
-    (N'user4',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Minh Châu',  N'Phạm',     N'0902000004', N'user4@solestride.com',  '2002-01-25', 1),
-    (N'user5',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Thanh Tâm',  N'Võ',       N'0902000005', N'user5@solestride.com',  '2000-11-08', 1),
-    (N'user6',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Ngọc Hân',   N'Đặng',     N'0902000006', N'user6@solestride.com',  '2001-07-14', 1),
-    (N'user7',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Quốc Bảo',   N'Bùi',      N'0902000007', N'user7@solestride.com',  '1998-04-02', 0),
-    (N'user8',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Thị Ngọc',   N'Đỗ',       N'0902000008', N'user8@solestride.com',  '2003-06-19', 1),
-    (N'user9',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Xuân Phúc',  N'Hồ',       N'0902000009', N'user9@solestride.com',  '1997-10-27', 0),
-    (N'user10', N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Mỹ Linh',    N'Dương',    N'0902000010', N'user10@solestride.com', '2000-08-12', 1),
-    (N'user11', N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Đình Khôi',  N'Ngô',      N'0902000011', N'user11@solestride.com', '2001-12-31', 0);
+    (N'user1',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'James',    N'Wilson',   N'0902000001', N'user1@solestride.com',  '2000-02-10', 0),
+    (N'user2',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Olivia',   N'Martinez', N'0902000002', N'user2@solestride.com',  '2001-05-18', 1),
+    (N'user3',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Ethan',    N'Anderson', N'0902000003', N'user3@solestride.com',  '1999-09-30', 0),
+    (N'user4',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Sophia',   N'Thomas',   N'0902000004', N'user4@solestride.com',  '2002-01-25', 1),
+    (N'user5',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Ava',      N'Moore',    N'0902000005', N'user5@solestride.com',  '2000-11-08', 1),
+    (N'user6',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Mia',      N'Clark',    N'0902000006', N'user6@solestride.com',  '2001-07-14', 1),
+    (N'user7',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Noah',     N'Jackson',  N'0902000007', N'user7@solestride.com',  '1998-04-02', 0),
+    (N'user8',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Isabella', N'Lee',      N'0902000008', N'user8@solestride.com',  '2003-06-19', 1),
+    (N'user9',  N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Lucas',    N'Harris',   N'0902000009', N'user9@solestride.com',  '1997-10-27', 0),
+    (N'user10', N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Emma',     N'Davis',    N'0902000010', N'user10@solestride.com', '2000-08-12', 1),
+    (N'user11', N'3e7c19576488862816f13b512cacf3e4ba97dd97243ea0bd6a2ad1642d86ba72', 2, N'Mason',    N'Lewis',    N'0902000011', N'user11@solestride.com', '2001-12-31', 0);
 
     -- Demote any leftover test admins so exactly one admin exists
     UPDATE dbo.Users SET Role = 2 WHERE Role = 0 AND Username <> N'admin';
@@ -76,9 +76,9 @@ BEGIN
 
     DECLARE @receivers TABLE (Receiver nvarchar(100));
     INSERT INTO @receivers VALUES
-    (N'Nguyễn Văn An'), (N'Trần Thị Bích'), (N'Lê Hoàng Nam'), (N'Phạm Minh Châu'),
-    (N'Võ Thanh Tâm'), (N'Đặng Ngọc Hân'), (N'Bùi Quốc Bảo'), (N'Đỗ Thị Ngọc'),
-    (N'Hồ Xuân Phúc'), (N'Dương Mỹ Linh'), (N'Ngô Đình Khôi'), (N'Lý Gia Huy');
+    (N'James Wilson'), (N'Emily Johnson'), (N'Michael Brown'), (N'Sarah Davis'),
+    (N'Olivia Martinez'), (N'Ethan Anderson'), (N'Sophia Thomas'), (N'Liam Taylor'),
+    (N'Ava Moore'), (N'Noah Jackson'), (N'Isabella Lee'), (N'Mason Lewis');
 
     DECLARE @notes TABLE (Note nvarchar(500));
     INSERT INTO @notes VALUES
